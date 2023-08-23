@@ -1,0 +1,23 @@
+# Python programm for a simple calculator.
+# Taking input of numbers from user
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+print('''Press 1 for Addition.
+Press 2 for Substraction.
+Press 3 for Multiplication.
+Press 4 for Division.''')
+choice = int(input("Enter your choice: "))
+if(choice == 1):
+  sum = a + b
+  print("The Addition of numbers is" , sum)
+elif(choice == 2):
+  sub = a - b
+  print("The Substraction of numbers is" , sub)
+elif(choice == 3):
+  multi = a * b
+  print("The Multiplication of numbers is" , multi)
+elif(choice == 4):
+  div = a / b
+  print("The Division of numbers is" , div)
+else:
+  print("Pls enter the valid choice.")
